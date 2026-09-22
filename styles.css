@@ -1,16 +1,78 @@
 body {
     margin: 0;
     font-family: monospace;
-    background-color: #C3E3DC;
+    background: url(./imgs/fondogatines.jpg);
+    background-color: #C2D3CD;
     display: flex;
     flex-direction: column; 
     align-items: center;   
     
-   padding: 20px;
-   gap: 10px;
    
+   
+}
+
+.rect-central{
+    margin : 20px;
+    background-color:#FFFEBF;
+    width: 90%;                
+    max-width: 450px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 16px;      
+    
+
+ 
+}
+
+h1 {
+    margin: 0;  
+    margin-top: 15px;          
+      
+    text-align: center;
+    font-size: 30px;
+    color: #573317;
+
 }
 
 p {
     text-align: center;
 }
+
+.dias{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+
+}
+.dia-btn {
+    background:linear-gradient(to bottom, #FFFCB0 5%, #F7F272 100%);
+    background-color:#FFFA9C;
+    border-radius:12px;
+    border:1px solid #7A6F21;
+    display:inline-block;
+    cursor:pointer;
+    color:#636042;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    width: 400px;
+    height: 90px;
+}
+.dia-btn:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#ffffff;
+}
+
+.dia-btn:active {
+    position:relative;
+    top:2px;
+}
+
