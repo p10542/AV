@@ -38,7 +38,7 @@ body {
     position: relative;
 }
 
-#cerrar-modal {
+#btn-cerrar {
     position: absolute;
     top: 10px;
     right: 15px;
@@ -50,7 +50,7 @@ body {
 }
 
 #modal-contenido img {
-    width: 100%;
+    width: 50%;
     max-height: 250px;
     object-fit: cover;
     border-radius: 8px;
