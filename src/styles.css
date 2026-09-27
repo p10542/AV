@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: monospace;
-    background: url(./imgs/fondogatines.jpg);
-    background-color: #C2D3CD;
+    background: url(../imgs/conejitos.jpg);
+    background-color: rgb(101, 101, 203);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,12 +82,32 @@ body {
     text-align: center;
     font-size: 30px;
     color: #573317;
+    /*color:rgb(41, 41, 170)*/
 }
 
-p {
+#parrafada{
+    text-align: justify;
+}
+
+#instrucciones{
+    margin-top: 8px;
     text-align: center;
+    margin-bottom: 8px;
 }
 
+/**
+#contador{
+    background-color: #002266;
+    border-radius: 2px;
+    border:1px solid black;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    padding: 6px 24px;
+}
+**/
 .dias {
     display: flex;
     flex-direction: column;

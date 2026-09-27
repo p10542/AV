@@ -7,40 +7,40 @@ const contenido_dias = {
     "dia-1":{
         titulo : "6 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/foquita.jpg"  
+        ruta_img : "../imgs/foquita.jpg"  
     },
 
     "dia-2":{
         titulo : "5 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/fondogatines.jpg" 
     },
     "dia-3":{
         titulo : "4 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/fondogatines.jpg" 
     },
     "dia-4":{
         titulo : "3 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/fondogatines.jpg" 
     },
     "dia-5":{
         titulo : "2 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/fondogatines.jpg" 
 
     },
     "dia-6":{
         titulo : "1 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/fondogatines.jpg" 
 
     },
     "dia-7":{
         titulo : "HAPPY BIRTHDAY!",
         text:   "No lo hice aun",
-        ruta_img : "./imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/fondogatines.jpg" 
 
     }
 
