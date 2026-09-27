@@ -48,7 +48,7 @@ const contenido_dias = {
 
 const btn_cerrar = document.getElementById("btn-cerrar");
 const fondo_negro = document.getElementById("fondo-negro");
-const dob = document.getElementById("dibujo"); // dudoso
+const dob = document.getElementById("dibujo"); 
 const btns = document.querySelectorAll('.dia-btn');
 
 

@@ -7,8 +7,6 @@ body {
     flex-direction: column;
     align-items: center;
 
-
-
 }
 
 .rect-central {
@@ -22,39 +20,42 @@ body {
     padding: 20px;
     gap: 10px;
     border-radius: 16px;
-
-
-
 }
 
 .cuadro-dibujo {
     background-color: #e6e6ff;
     padding: 25px;
-    border-radius: 12px;
-    width: 85%;
-    max-width: 400px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
     box-sizing: border-box;
     text-align: center;
     position: relative;
 }
 
 #btn-cerrar {
+    background: linear-gradient(to bottom, #FFFCB0 5%, #F7F272 100%);
+    background-color: #FFFA9C;
+    border-radius: 6px;
+    border: 1px solid #7A6F21;
+    display: inline-block;
     position: absolute;
     top: 10px;
     right: 15px;
-    background: none;
-    border: none;
+
+
     font-size: 24px;
-    cursor: pointer;
+
     color: #002266;
 }
 
-#modal-contenido img {
-    width: 50%;
-    max-height: 250px;
+#dibujo img {
+    width: 300px;
+    height: 260px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 12px;
+    border-radius: 12px;
+    display: block;
+    margin: 10px auto;
 }
 
 .fondo-negro2 {
@@ -81,7 +82,6 @@ body {
     text-align: center;
     font-size: 30px;
     color: #573317;
-
 }
 
 p {
