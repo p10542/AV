@@ -55,10 +55,18 @@ const btns = document.querySelectorAll('.dia-btn');
 btns.forEach((boton) =>{
     boton.addEventListener('click',() =>{
         // click
+        let ahora = new Date();
+        let fechaDesb = new Date(boton.dataset.fecha);
+
         fondo_negro.classList.remove('fondo-negro2');
-        let id = boton.id;
-        let reg = contenido_dias[id];
-        dob.innerHTML = `<h2>${reg.titulo}</h2> <img src="${reg.ruta_img}"><p>${reg.text}</p>`;
+        if(ahora < fechaDesb){
+            dob.innerHTML = `<h2>NOT YET!</h2><p>This button is still locked! <br> Please wait until the specified day so you can unlock it.</p>`;
+        }else{
+            let id = boton.id;
+            let reg = contenido_dias[id];
+            dob.innerHTML = `<h2>${reg.titulo}</h2> <img src="${reg.ruta_img}"><p>${reg.text}</p>`;
+        }
+       
 
 
     });
