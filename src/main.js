@@ -7,13 +7,13 @@ const contenido_dias = {
     "dia-1":{
         titulo : "6 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "../imgs/foquita.jpg"  
+        ruta_img : "../imgs/dia1.jpg"  
     },
 
     "dia-2":{
         titulo : "5 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "../imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/dia2.webp" 
     },
     "dia-3":{
         titulo : "4 DAYS LEFT!",
@@ -28,7 +28,7 @@ const contenido_dias = {
     "dia-5":{
         titulo : "2 DAYS LEFT!",
         text:   "No lo hice aun",
-        ruta_img : "../imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/dia5.webp" 
 
     },
     "dia-6":{
@@ -60,7 +60,7 @@ btns.forEach((boton) =>{
 
         fondo_negro.classList.remove('fondo-negro2');
         if(ahora < fechaDesb){
-            dob.innerHTML = `<h2>NOT YET!</h2><p>This button is still locked! <br> Please wait until the specified day so you can unlock it.</p>`;
+            dob.innerHTML = `<h2>NOT YET!!</h2><p>This button is still locked! <br> Please wait until the specified day so you can unlock it. :p </p>`;
         }else{
             let id = boton.id;
             let reg = contenido_dias[id];
