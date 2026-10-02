@@ -144,3 +144,12 @@ body {
     position: relative;
     top: 2px;
 }
+
+#contador {
+    background-color: rgb(244, 242, 205);
+    color: rgb(171, 47, 82);
+    font-style : bold;
+    font-size: 30px;
+
+
+}

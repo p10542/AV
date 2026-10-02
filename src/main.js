@@ -6,7 +6,7 @@ const contenido_dias = {
 
     "dia-1":{
         titulo : "6 DAYS LEFT!",
-        text:   "No lo hice aun",
+        text:   "Hello Avrio!! As you might have guessed, the gifts are mostly going to be drawings :3. I decided to draw mini avrio in his oc version with a few things that (i think) he likes like novels, seaweed snackies, gaming, football, animals and your electric guitar! I still remember when you told me you had a dream that someone stoled. Even if it happened a long time ago. I hope you like your mini self.",
         ruta_img : "../imgs/dia1.jpg"  
     },
 
@@ -50,6 +50,10 @@ const btn_cerrar = document.getElementById("btn-cerrar");
 const fondo_negro = document.getElementById("fondo-negro");
 const dob = document.getElementById("dibujo"); 
 const btns = document.querySelectorAll('.dia-btn');
+const contador = document.getElementById("contador");
+const cumple = new Date(2026, 9, 19, 0, 0, 0);
+const temporizador = setInterval(cuentaAtras, 1000);
+cuentaAtras();
 
 
 btns.forEach((boton) =>{
@@ -75,6 +79,29 @@ btns.forEach((boton) =>{
 btn_cerrar.addEventListener('click', () =>{
         fondo_negro.classList.add('fondo-negro2');
 });
+
+
+function cuentaAtras(){
+    let ahora = new Date();
+    let falta = cumple-ahora;
+
+    if(falta <= 0){
+        contador.textContent = "HAPPY BIRTHDAY!";
+        clearInterval(timer);
+    }
+
+    let days = Math.floor(falta / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((falta / (1000 * 60 * 60)) % 24);
+    let minutes = Math.floor((falta / (1000 * 60)) % 60);
+    let seconds = Math.floor((falta / 1000) % 60);
+
+    const format = num => String(num).padStart(2, '0');
+    contador.textContent =`${days}d ${format(hours)}h ${format(minutes)}m ${format(seconds)}s`;
+
+   
+}
+
+
 
 
 
