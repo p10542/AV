@@ -6,28 +6,28 @@ const contenido_dias = {
 
     "dia-1":{
         titulo : "6 DAYS LEFT!",
-        text:   "Hello Avrio!! As you might have guessed, the gifts are mostly going to be drawings :3. I decided to draw mini avrio in his oc version with a few things that (i think) he likes like novels, seaweed snackies, gaming, football, animals and your electric guitar! I still remember when you told me you had a dream that someone stoled. Even if it happened a long time ago. I hope you like your mini self.",
+        text:   "Hello Avrio!! As you might have guessed, the gifts are mostly going to be drawings :3. I decided to draw mini avrio in his oc version with a few things that (i think) he likes like novels, seaweed snackies, gaming, football, animals and your electric guitar! I still remember when you told me you had a dream that someone stole it. Even if it happened a long time ago. I hope you like your mini self and give him a lot of love. Lots of love, Puli <3",
         ruta_img : "../imgs/dia1.jpg"  
     },
 
     "dia-2":{
         titulo : "5 DAYS LEFT!",
-        text:   "No lo hice aun",
+        text:   "Hello hello! The special day is starting to come closer. To celebrate, avrio kitty and puli kitty have gathered! They are wearing matching berry hats! Dont they look cute? Can you feel the excitedness in their eyes and smiles? Its such a special day to come, and i bet its the happiest. Lets help them get everything they need to celebrate the birthday party!! I hope today is good and that you eat lots of yummy food, lots of love Puli <3 ",
         ruta_img : "../imgs/dia2.webp" 
     },
     "dia-3":{
         titulo : "4 DAYS LEFT!",
-        text:   "No lo hice aun",
+        text:   "Good morning :D. Its good to see you again, todays gift is a bit simple, because theres quite a few that are yet to come. Heres a little avrio taking care of his little car and Solecito (akka : his two kiddies). They seem so happy with avrio because they can tell youre the sweetest soul. I hope you feel as loved as the little kiddies feel in the drawing. Have a good day and lets wait excitedly for the birthday day to come. Lots of love, Puli <3",
         ruta_img : "../imgs/fondogatines.jpg" 
     },
     "dia-4":{
         titulo : "3 DAYS LEFT!",
-        text:   "No lo hice aun",
-        ruta_img : "../imgs/fondogatines.jpg" 
+        text:   "Hello :). Todays drawing is a bit different and maybe special. Ive just been thinking about us, when we first met eachother and we said that we would dance under the stars. Well in this drawing its what we are doing!! I decided not to use avrio oc because how avrio looks in real life is my favorite of all his possible looks. I hope this drawing can warm your heart and make you remember of our first days together. As always, Lots of love, Puli <3 ",
+        ruta_img : "../imgs/dia4.jpg" 
     },
     "dia-5":{
         titulo : "2 DAYS LEFT!",
-        text:   "No lo hice aun",
+        text:   "Chan chan chan, the day is getting closer ! Theres only two days left!! Arent you excited? Cuz im so so excited! Even Aira and Robin have gathered together to wait for your birthday. They all know youre wonderful and caring so they want to be together by your side during the special day! I hope you like the drawing, i tried to put my love into it despite them not being exactly how they are in the game. You already know, lots of love from Puli <3",
         ruta_img : "../imgs/dia5.webp" 
 
     },
