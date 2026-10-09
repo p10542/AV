@@ -18,7 +18,7 @@ const contenido_dias = {
     "dia-3":{
         titulo : "4 DAYS LEFT!",
         text:   "Good morning :D. Its good to see you again, todays gift is a bit simple, because theres quite a few that are yet to come. Heres a little avrio taking care of his little car and Solecito (akka : his two kiddies). They seem so happy with avrio because they can tell youre the sweetest soul. I hope you feel as loved as the little kiddies feel in the drawing. Have a good day and lets wait excitedly for the birthday day to come. Lots of love, Puli <3",
-        ruta_img : "../imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/dia3.jpg" 
     },
     "dia-4":{
         titulo : "3 DAYS LEFT!",
@@ -33,13 +33,13 @@ const contenido_dias = {
     },
     "dia-6":{
         titulo : "1 DAYS LEFT!",
-        text:   "No lo hice aun",
+        text:   "Wow..Avrio theres only a day left. You must already feel the excitedness flowing through your veins. On this day you have to look back and think of all the special things you did this year, everything you achieved and every beautiful moment that will leave a memory in your mind forever. Its your last day with 23 and its a day to be grateful of, im sure if we ask little Avrio he would be so proud of the person youre becoming. Theres still a long road ahead of you, full of wishes yet to become true. I will be by your side as much as i can, because as always, Puli loves you lots and lots. Please have a wonderful cozy day today, i love you!!",
         ruta_img : "../imgs/fondogatines.jpg" 
 
     },
     "dia-7":{
         titulo : "HAPPY BIRTHDAY!",
-        text:   "No lo hice aun",
+        text:   "Happy birthday my dear Avrio! Its finally the goal of the countdown! Were you missing someone on the drawings? I decided to save Saki for last since its the one you love the most, isnt it? Maybe this could be us someday, enjoying avrios birthday all together. Again, happy birthday, theres still one more gift, Its a handwriten letter !! Please ask puli to deliver it by saying: I already opened the last day! And as always..lots and lots of love my darling!! Tell me if you liked the surprise <3",
         ruta_img : "../imgs/fondogatines.jpg" 
 
     }
