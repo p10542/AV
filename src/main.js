@@ -40,7 +40,7 @@ const contenido_dias = {
     "dia-7":{
         titulo : "HAPPY BIRTHDAY!",
         text:   "Happy birthday my dear Avrio! Its finally the goal of the countdown! Were you missing someone on the drawings? I decided to save Saki for last since its the one you love the most, isnt it? Maybe this could be us someday, enjoying avrios birthday all together. Again, happy birthday, theres still one more gift, Its a handwriten letter !! Please ask puli to deliver it by saying: I already opened the last day! And as always..lots and lots of love my darling!! Tell me if you liked the surprise <3",
-        ruta_img : "../imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/dia7.jpg" 
 
     }
 
