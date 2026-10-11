@@ -34,7 +34,7 @@ const contenido_dias = {
     "dia-6":{
         titulo : "1 DAYS LEFT!",
         text:   "Wow..Avrio theres only a day left. You must already feel the excitedness flowing through your veins. On this day you have to look back and think of all the special things you did this year, everything you achieved and every beautiful moment that will leave a memory in your mind forever. Its your last day with 23 and its a day to be grateful of, im sure if we ask little Avrio he would be so proud of the person youre becoming. Theres still a long road ahead of you, full of wishes yet to become true. I will be by your side as much as i can, because as always, Puli loves you lots and lots. Please have a wonderful cozy day today, i love you!!",
-        ruta_img : "../imgs/fondogatines.jpg" 
+        ruta_img : "../imgs/dia6.jpg" 
 
     },
     "dia-7":{
